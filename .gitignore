@@ -1,0 +1,20 @@
+# Environment dan kredensial
+.env
+.env.*
+!.env.example
+
+# Database dan data lokal
+/storage/*.db
+/storage/*.sqlite
+/storage/*.sqlite3
+
+# Backup
+*.backup
+*.bak
+
+# File sementara
+*.log
+.DS_Store
+
+# Semua file cadangan
+*.backup*
